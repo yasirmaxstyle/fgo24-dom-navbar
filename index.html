@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+    <style>
+        * {
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        nav {
+            background-color: darkslategray;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        li {
+            font-size: 1.5rem;
+            text-align: center;
+            display: inline-block;
+            margin: 10px;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+
+            &:hover {
+                background-color: darkolivegreen;
+                cursor: pointer;
+            }
+        }
+
+        nav>div>div {
+            display: none;
+        }
+
+        @media (max-width: 768px) {
+            nav>div>div {
+                display: block;
+                font-size: 1.5rem;
+                text-align: center;
+                color: white;
+                padding: 10px;
+                border-radius: 5px;
+            }
+
+            li {
+                display: none;
+            }
+
+            nav>div:hover li {
+                display: block;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div>
+                <div>Menu</div>
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Process</li>
+                    <li>Portfolio</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+</body>
+
+</html>
