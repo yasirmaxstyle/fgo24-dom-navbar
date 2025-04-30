@@ -6,53 +6,70 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Navbar</title>
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
         * {
             margin: 0;
             box-sizing: border-box;
+            font-family: "Roboto", sans-serif;
+            font-weight: 700;
         }
 
         nav {
-            background-color: darkslategray;
+            background: linear-gradient(45deg, #112222, #458781);
         }
 
         ul {
-            list-style: none;
+            list-style-type: none;
+            flex-direction: column;
+            margin: 0;
+            padding: 0;
         }
 
         li {
+            display: none;
             font-size: 1.5rem;
             text-align: center;
-            display: inline-block;
-            margin: 10px;
+            margin: 20px;
             color: white;
             padding: 10px;
             border-radius: 5px;
 
             &:hover {
-                background-color: darkolivegreen;
+                background-color: #b5dad4;
+                color: #112222;
                 cursor: pointer;
             }
         }
 
         nav>div>div {
-            display: none;
+            font-size: 1.5rem;
+            text-align: center;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        nav>div:hover {
+            cursor: pointer;
+        }
+
+        nav>div:hover li {
+            display: block
         }
 
         @media (max-width: 768px) {
             nav>div>div {
-                display: block;
-                font-size: 1.5rem;
-                text-align: center;
-                color: white;
-                padding: 10px;
-                border-radius: 5px;
+                display: none;
+
+            }
+
+            ul {
+                display: flex;
+                flex-direction: row;
             }
 
             li {
-                display: none;
-            }
-
-            nav>div:hover li {
                 display: block;
             }
         }
