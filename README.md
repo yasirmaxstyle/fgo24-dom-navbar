@@ -1,7 +1,6 @@
 # HTML CSS NAVBAR
 
 This project demonstrate the implementation of media queries in order to make responsive navbar.
-> This project restrict the use of flexbox
 
 ## How to run this project
 ### Requirement
