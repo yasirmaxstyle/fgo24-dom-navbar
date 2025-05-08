@@ -1,14 +1,18 @@
 {
-  "name": "fgo24-css-navbar",
+  "name": "fgo24-dom-navbar",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "dev": "live-server"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "navbar",
+    "dom",
+    "responsive"
+  ],
+  "author": "yasirmaxstyle",
   "license": "ISC",
-  "description": "",
+  "description": "navbar made with dom event javascript",
   "devDependencies": {
     "live-server": "^1.2.2"
   }
