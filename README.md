@@ -1,6 +1,6 @@
-# HTML CSS NAVBAR
+# HTML DOM NAVBAR
 
-This project demonstrate the implementation of media queries in order to make responsive navbar.
+This project demonstrate the implementation of media queries in order to make responsive navbar, and take control over the elment using DOM Javascript.
 
 ## How to run this project
 ### Requirement
@@ -9,7 +9,7 @@ This project demonstrate the implementation of media queries in order to make re
 
 1. Clone the repository
 ```sh
-git clone https://github.com/yasirmaxstyle/fgo24-css-navbar.git
+git clone https://github.com/yasirmaxstyle/fgo24-dom-navbar.git
 ```
 2. Install `npm`
 ```sh
