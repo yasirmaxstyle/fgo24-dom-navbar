@@ -34,12 +34,14 @@ li {
     }
 }
 
-nav>div>div {
+nav>div>button {
     font-size: 1.5rem;
     text-align: center;
     color: white;
     padding: 10px;
     border-radius: 5px;
+    background-color: unset;
+    border: none;
 }
 
 nav>div:hover {
@@ -51,7 +53,7 @@ nav>div:hover {
 }
 
 @media (width>=768px) {
-    nav>div>div {
+    nav>div>button {
         display: none;
 
     }
